@@ -10,7 +10,6 @@
   "extensions": [
     "github.vscode-pull-request-github",
     "ms-python.python",
-    "redhat.vscode-yaml",
-    "vscoss.vscode-ansible"
+    "redhat.vscode-yaml"
   ]
 }
