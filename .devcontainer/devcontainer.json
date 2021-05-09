@@ -9,7 +9,14 @@
     }
   },
   "settings": {
-    "terminal.integrated.shell.linux": "/bin/bash",
+    "terminal.integrated.profiles.linux": {
+      "bash (login)": {
+        "path": "bash",
+        "args": [
+          "-l"
+        ]
+      }
+    },
     "python.pythonPath": "/usr/local/bin/python",
     "python.languageServer": "Pylance",
     "python.linting.enabled": true,
